@@ -1,0 +1,42 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from my_sim_tesi_ros2_interfaces/action/DronePoseControl.action
+// generated code does not contain a copyright notice
+
+
+module my_sim_tesi_ros2_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Request")
+    struct DronePoseControl_Goal {
+      double target_x;
+
+      double target_y;
+
+      double target_yaw;
+
+      double target_altitude;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct DronePoseControl_Result {
+      double res_x;
+
+      double res_y;
+
+      double res_yaw;
+
+      double res_altitude;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct DronePoseControl_Feedback {
+      double current_x;
+
+      double current_y;
+
+      double current_yaw;
+
+      double current_altitude;
+    };
+  };
+};

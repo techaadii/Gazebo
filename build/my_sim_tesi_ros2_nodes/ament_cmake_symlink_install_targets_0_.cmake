@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/moonlab/ros2_ws/build/my_sim_tesi_ros2_nodes/pose_control_action_server" "TARGETS" "pose_control_action_server" "DESTINATION" "lib/my_sim_tesi_ros2_nodes")

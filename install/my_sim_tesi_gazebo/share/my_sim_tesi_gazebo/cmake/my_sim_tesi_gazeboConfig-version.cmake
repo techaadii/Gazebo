@@ -1,0 +1,1 @@
+/home/moonlab/ros2_ws/build/my_sim_tesi_gazebo/ament_cmake_core/my_sim_tesi_gazeboConfig-version.cmake

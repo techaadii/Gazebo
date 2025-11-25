@@ -1,0 +1,4 @@
+Invoking command in '/home/moonlab/ros2_ws/build/my_sim_tesi_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/moonlab/ros2_ws/build/my_sim_tesi_gazebo -- -j24 -l24
+Invoked command in '/home/moonlab/ros2_ws/build/my_sim_tesi_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/moonlab/ros2_ws/build/my_sim_tesi_gazebo -- -j24 -l24
+Invoking command in '/home/moonlab/ros2_ws/build/my_sim_tesi_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/moonlab/ros2_ws/build/my_sim_tesi_gazebo
+Invoked command in '/home/moonlab/ros2_ws/build/my_sim_tesi_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/moonlab/ros2_ws/build/my_sim_tesi_gazebo

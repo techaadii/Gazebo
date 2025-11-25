@@ -1,0 +1,1 @@
+/home/moonlab/ros2_ws/build/my_sim_tesi_ros2_interfaces/rosidl_generator_py/my_sim_tesi_ros2_interfaces/__init__.py

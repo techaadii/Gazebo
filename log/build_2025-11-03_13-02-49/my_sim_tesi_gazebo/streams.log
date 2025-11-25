@@ -1,0 +1,173 @@
+[0.008s] Invoking command in '/home/moonlab/ros2_ws/build/my_sim_tesi_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/moonlab/ros2_ws/src/ros2_ignition_thesis/my_sim_tesi_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/moonlab/ros2_ws/install/my_sim_tesi_gazebo
+[0.098s] -- The C compiler identification is GNU 11.4.0
+[0.166s] -- The CXX compiler identification is GNU 11.4.0
+[0.173s] -- Detecting C compiler ABI info
+[0.220s] -- Detecting C compiler ABI info - done
+[0.224s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.224s] -- Detecting C compile features
+[0.225s] -- Detecting C compile features - done
+[0.227s] -- Detecting CXX compiler ABI info
+[0.278s] -- Detecting CXX compiler ABI info - done
+[0.283s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.283s] -- Detecting CXX compile features
+[0.284s] -- Detecting CXX compile features - done
+[0.286s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.370s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.406s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.430s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.483s] -- Added test 'lint_cmake' to check CMake code style
+[0.489s] -- Added test 'xmllint' to check XML markup files
+[0.490s] -- Configuring done
+[0.491s] -- Generating done
+[0.492s] -- Build files have been written to: /home/moonlab/ros2_ws/build/my_sim_tesi_gazebo
+[0.495s] Invoked command in '/home/moonlab/ros2_ws/build/my_sim_tesi_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/moonlab/ros2_ws/src/ros2_ignition_thesis/my_sim_tesi_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/moonlab/ros2_ws/install/my_sim_tesi_gazebo
+[0.496s] Invoking command in '/home/moonlab/ros2_ws/build/my_sim_tesi_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/moonlab/ros2_ws/build/my_sim_tesi_gazebo -- -j24 -l24
+[0.519s] Invoked command in '/home/moonlab/ros2_ws/build/my_sim_tesi_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/moonlab/ros2_ws/build/my_sim_tesi_gazebo -- -j24 -l24
+[0.520s] Invoking command in '/home/moonlab/ros2_ws/build/my_sim_tesi_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/moonlab/ros2_ws/build/my_sim_tesi_gazebo
+[0.524s] -- Install configuration: ""
+[0.525s] -- Execute custom install script
+[0.526s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/scripts/model.material
+[0.531s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/BOXSET_Albedo.png
+[0.537s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/BOXSET_Emissive.png
+[0.542s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/BOXSET_Metalness.png
+[0.548s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/BOXSET_Normal.png
+[0.554s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/BOXSET_Roughness.png
+[0.560s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/Crates_Crates_BaseColor.png
+[0.565s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/Crates_Crates_Normal.png
+[0.570s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/Crates_Crates_Roughness.png
+[0.575s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/DepotLightmap.png
+[0.581s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/FANS_Albedo.png
+[0.587s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/FANS_Metalness.png
+[0.592s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/FANS_Normal.png
+[0.598s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/FANS_Roughness.png
+[0.604s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/FLOOR_Albedo.png
+[0.609s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/FLOOR_Metalness.png
+[0.615s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/FLOOR_Normal.png
+[0.621s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/FLOOR_Roughness.png
+[0.626s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/FanBack_FanBack_BaseColor.png
+[0.631s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/FireAlarmPole_Albedo.png
+[0.636s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/FireAlarmPole_Metalness.png
+[0.642s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/FireAlarmPole_Normal.png
+[0.648s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/FireAlarmPole_Roughness.png
+[0.653s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/FireAlarm_Albedo.png
+[0.658s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/FireAlarm_Metalness.png
+[0.664s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/FireAlarm_Normal.png
+[0.670s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/FireAlarm_Roughness.png
+[0.675s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/Forklift_Forklift_BaseColor.png
+[0.680s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/Forklift_Forklift_Metallic.png
+[0.686s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/Forklift_Forklift_Normal.png
+[0.690s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/Forklift_Forklift_Roughness.png
+[0.696s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/INTERCOM_Albedo.png
+[0.702s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/INTERCOM_Emissive.png
+[0.707s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/INTERCOM_Metalness.png
+[0.712s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/INTERCOM_Normal.png
+[0.717s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/INTERCOM_Roughness.png
+[0.723s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/PILLERS_Albedo.png
+[0.728s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/PILLERS_Metalness.png
+[0.733s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/PILLERS_Normal.png
+[0.738s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/PILLERS_Roughness.png
+[0.744s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/Pipes_Albedo.png
+[0.749s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/Pipes_Metalness.png
+[0.754s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/Pipes_Normal.png
+[0.760s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/Pipes_Roughness.png
+[0.765s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/ROOF_Albedo.png
+[0.771s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/ROOF_Emissive.png
+[0.776s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/ROOF_Metalness.png
+[0.781s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/ROOF_Normal.png
+[0.787s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/ROOF_Roughness.png
+[0.792s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/STAIRS_Albedo.png
+[0.797s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/STAIRS_Metalness.png
+[0.803s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/STAIRS_Normal.png
+[0.808s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/STAIRS_Roughness.png
+[0.813s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/WALLS_Albedo.png
+[0.819s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/WALLS_Metalness.png
+[0.824s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/WALLS_Normal.png
+[0.829s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/WALLS_Roughness.png
+[0.834s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/Window_WINDOW_BaseColor.png
+[0.839s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/Window_WINDOW_Metallic.png
+[0.845s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/materials/textures/Window_WINDOW_Roughness.png
+[0.851s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/meshes/Crates.dae
+[0.856s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/meshes/Depot.dae
+[0.862s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/model.config
+[0.867s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/model.sdf
+[0.872s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/thumbnails/0.png
+[0.877s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/thumbnails/1.png
+[0.883s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/thumbnails/2.png
+[0.888s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/thumbnails/3.png
+[0.894s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/thumbnails/4.png
+[0.899s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/Depot/thumbnails/5.png
+[0.905s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/garage_door/model.config
+[0.910s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/garage_door/model.sdf
+[0.916s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/pallet_box_mobile/meshes/Box_paper_04_1_Base_Color.png
+[0.921s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/pallet_box_mobile/meshes/boxes.dae
+[0.927s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/pallet_box_mobile/model.config
+[0.932s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/pallet_box_mobile/model.sdf
+[0.938s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/pallet_box_mobile/thumbnails/1.png
+[0.943s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/parallelepiped/model.config
+[0.948s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/parallelepiped/model.sdf
+[0.954s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/pioneer2dx/materials/textures/68-02421-8000-RA_Turtlebot_F-F_Standoff_color.png
+[0.959s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/pioneer2dx/materials/textures/68-04552-1000-RA_Turtlebot_M-F_Standoff_color.png
+[0.964s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/pioneer2dx/materials/textures/68-04552-2000-RA_Turtlebot_M-F_Standoff_color.png
+[0.970s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/pioneer2dx/materials/textures/create_body.png
+[0.975s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/pioneer2dx/materials/textures/plate_0_logo.png
+[0.981s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/pioneer2dx/materials/textures/plate_1_logo.png
+[0.986s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/pioneer2dx/materials/textures/plate_2_logo.png
+[0.991s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/pioneer2dx/meshes/chassis.dae
+[0.997s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/pioneer2dx/meshes/wheel.dae
+[1.002s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/pioneer2dx/model-1_2.sdf
+[1.007s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/pioneer2dx/model-1_3.sdf
+[1.012s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/pioneer2dx/model-1_4.sdf
+[1.017s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/pioneer2dx/model.config
+[1.023s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/pioneer2dx/model.sdf
+[1.028s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/pioneer2dx/thumbnails/1.png
+[1.033s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/pioneer2dx/thumbnails/2.png
+[1.038s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/pioneer2dx/thumbnails/3.png
+[1.043s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/pioneer2dx/thumbnails/4.png
+[1.049s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/pioneer2dx/thumbnails/5.png
+[1.054s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/quadcopter/materials/textures/led.jpg
+[1.061s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/quadcopter/materials/textures/spotlight.jpg
+[1.066s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/quadcopter/meshes/iris.dae
+[1.071s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/quadcopter/meshes/led.dae
+[1.077s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/quadcopter/meshes/led_lamp.dae
+[1.082s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/quadcopter/meshes/propeller_ccw.dae
+[1.087s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/quadcopter/meshes/propeller_cw.dae
+[1.092s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/quadcopter/meshes/spotlight.dae
+[1.099s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/quadcopter/meshes/vi_camera.dae
+[1.104s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/quadcopter/meshes/vi_camera.jpg
+[1.110s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/quadcopter/meshes/vi_sensor.dae
+[1.116s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/quadcopter/meshes/vi_sensor.jpg
+[1.121s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/quadcopter/meshes/x3.dae
+[1.127s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/quadcopter/meshes/x3.jpg
+[1.132s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/quadcopter/model.config
+[1.138s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/quadcopter/model.sdf
+[1.144s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/quadcopter/thumbnails/1.jpg
+[1.150s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/quadcopter/thumbnails/2.jpg
+[1.155s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/quadcopter/thumbnails/3.jpg
+[1.161s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/quadcopter/thumbnails/4.jpg
+[1.167s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/quadcopter/thumbnails/5.jpg
+[1.172s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/shelf/meshes/Box_paper_04_1_Base_Color.png
+[1.178s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/shelf/meshes/shelf_big_movai.dae
+[1.184s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/shelf/model.config
+[1.189s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/shelf/model.sdf
+[1.195s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/shelf/thumbnails/1.png
+[1.201s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/shelf_big/meshes/Box_paper_04_1_Base_Color.png
+[1.206s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/shelf_big/meshes/shelf_big_movai.dae
+[1.211s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/shelf_big/model.config
+[1.217s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/shelf_big/model.sdf
+[1.224s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/models/shelf_big/thumbnails/1.png
+[1.229s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/worlds/my_world.sdf
+[1.235s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/ament_index/resource_index/package_run_dependencies/my_sim_tesi_gazebo
+[1.240s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/ament_index/resource_index/parent_prefix_path/my_sim_tesi_gazebo
+[1.246s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/environment/ament_prefix_path.sh
+[1.252s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/environment/ament_prefix_path.dsv
+[1.258s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/environment/path.sh
+[1.263s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/environment/path.dsv
+[1.269s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/local_setup.bash
+[1.275s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/local_setup.sh
+[1.279s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/local_setup.zsh
+[1.284s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/local_setup.dsv
+[1.289s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/package.dsv
+[1.295s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/ament_index/resource_index/packages/my_sim_tesi_gazebo
+[1.300s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/cmake/my_sim_tesi_gazeboConfig.cmake
+[1.305s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/cmake/my_sim_tesi_gazeboConfig-version.cmake
+[1.310s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_gazebo/share/my_sim_tesi_gazebo/package.xml

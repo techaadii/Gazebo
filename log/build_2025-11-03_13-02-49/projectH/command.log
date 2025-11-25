@@ -1,0 +1,2 @@
+Invoking command in '/home/moonlab/ros2_ws/build/projectH': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/moonlab/ros2_ws/src/projectH -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/moonlab/ros2_ws/install/projectH
+Invoked command in '/home/moonlab/ros2_ws/build/projectH' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/moonlab/ros2_ws/src/projectH -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/moonlab/ros2_ws/install/projectH

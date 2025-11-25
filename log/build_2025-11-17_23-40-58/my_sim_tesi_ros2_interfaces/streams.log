@@ -1,0 +1,150 @@
+[0.012s] Invoking command in '/home/moonlab/ros2_ws/build/my_sim_tesi_ros2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/moonlab/ros2_ws/src/ros2_ignition_thesis/my_sim_tesi_ros2_interfaces -DCMAKE_INSTALL_PREFIX=/home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces
+[0.040s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.110s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.122s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.124s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.127s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.153s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.343s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.454s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.597s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.610s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.623s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.623s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.623s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.641s] -- Configuring done
+[0.670s] -- Generating done
+[0.676s] -- Build files have been written to: /home/moonlab/ros2_ws/build/my_sim_tesi_ros2_interfaces
+[0.681s] Invoked command in '/home/moonlab/ros2_ws/build/my_sim_tesi_ros2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/moonlab/ros2_ws/src/ros2_ignition_thesis/my_sim_tesi_ros2_interfaces -DCMAKE_INSTALL_PREFIX=/home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces
+[0.682s] Invoking command in '/home/moonlab/ros2_ws/build/my_sim_tesi_ros2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/moonlab/ros2_ws/build/my_sim_tesi_ros2_interfaces -- -j24 -l24
+[0.707s] [35m[1mConsolidate compiler generated dependencies of target my_sim_tesi_ros2_interfaces__rosidl_generator_c[0m
+[0.713s] [  3%] Built target my_sim_tesi_ros2_interfaces__cpp
+[0.716s] [ 12%] Built target my_sim_tesi_ros2_interfaces__rosidl_generator_c
+[0.718s] [ 12%] Built target ament_cmake_python_symlink_my_sim_tesi_ros2_interfaces
+[0.719s] [35m[1mConsolidate compiler generated dependencies of target my_sim_tesi_ros2_interfaces__rosidl_typesupport_cpp[0m
+[0.719s] [35m[1mConsolidate compiler generated dependencies of target my_sim_tesi_ros2_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.719s] [35m[1mConsolidate compiler generated dependencies of target my_sim_tesi_ros2_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.722s] [35m[1mConsolidate compiler generated dependencies of target my_sim_tesi_ros2_interfaces__rosidl_typesupport_introspection_c[0m
+[0.722s] [35m[1mConsolidate compiler generated dependencies of target my_sim_tesi_ros2_interfaces__rosidl_typesupport_c[0m
+[0.723s] [35m[1mConsolidate compiler generated dependencies of target my_sim_tesi_ros2_interfaces__rosidl_typesupport_fastrtps_c[0m
+[0.730s] [ 22%] Built target my_sim_tesi_ros2_interfaces__rosidl_typesupport_introspection_c
+[0.730s] [ 32%] Built target my_sim_tesi_ros2_interfaces__rosidl_typesupport_c
+[0.731s] [ 41%] Built target my_sim_tesi_ros2_interfaces__rosidl_typesupport_cpp
+[0.731s] [ 51%] Built target my_sim_tesi_ros2_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.731s] [ 61%] Built target my_sim_tesi_ros2_interfaces__rosidl_typesupport_fastrtps_c
+[0.731s] [ 70%] Built target my_sim_tesi_ros2_interfaces__rosidl_typesupport_introspection_cpp
+[0.743s] [ 70%] Built target my_sim_tesi_ros2_interfaces
+[0.756s] [ 74%] Built target my_sim_tesi_ros2_interfaces__py
+[0.762s] [35m[1mConsolidate compiler generated dependencies of target my_sim_tesi_ros2_interfaces__rosidl_generator_py[0m
+[0.770s] [ 80%] Built target my_sim_tesi_ros2_interfaces__rosidl_generator_py
+[0.776s] [35m[1mConsolidate compiler generated dependencies of target my_sim_tesi_ros2_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.776s] [35m[1mConsolidate compiler generated dependencies of target my_sim_tesi_ros2_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[0.777s] [35m[1mConsolidate compiler generated dependencies of target my_sim_tesi_ros2_interfaces__rosidl_typesupport_c__pyext[0m
+[0.785s] [ 87%] Built target my_sim_tesi_ros2_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.785s] [ 96%] Built target my_sim_tesi_ros2_interfaces__rosidl_typesupport_c__pyext
+[0.785s] [100%] Built target my_sim_tesi_ros2_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.842s] running egg_info
+[0.842s] writing my_sim_tesi_ros2_interfaces.egg-info/PKG-INFO
+[0.842s] writing dependency_links to my_sim_tesi_ros2_interfaces.egg-info/dependency_links.txt
+[0.842s] writing top-level names to my_sim_tesi_ros2_interfaces.egg-info/top_level.txt
+[0.844s] reading manifest file 'my_sim_tesi_ros2_interfaces.egg-info/SOURCES.txt'
+[0.845s] writing manifest file 'my_sim_tesi_ros2_interfaces.egg-info/SOURCES.txt'
+[0.861s] [100%] Built target ament_cmake_python_build_my_sim_tesi_ros2_interfaces_egg
+[0.869s] Invoked command in '/home/moonlab/ros2_ws/build/my_sim_tesi_ros2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/moonlab/ros2_ws/build/my_sim_tesi_ros2_interfaces -- -j24 -l24
+[0.870s] Invoking command in '/home/moonlab/ros2_ws/build/my_sim_tesi_ros2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/moonlab/ros2_ws/build/my_sim_tesi_ros2_interfaces
+[0.874s] -- Install configuration: ""
+[0.875s] -- Execute custom install script
+[0.875s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_sim_tesi_ros2_interfaces
+[0.875s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/include/my_sim_tesi_ros2_interfaces/my_sim_tesi_ros2_interfaces/action/detail/drone_pose_control__functions.h
+[0.875s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/include/my_sim_tesi_ros2_interfaces/my_sim_tesi_ros2_interfaces/action/detail/drone_pose_control__struct.h
+[0.875s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/include/my_sim_tesi_ros2_interfaces/my_sim_tesi_ros2_interfaces/action/detail/drone_pose_control__type_support.h
+[0.875s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/include/my_sim_tesi_ros2_interfaces/my_sim_tesi_ros2_interfaces/action/drone_pose_control.h
+[0.875s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/include/my_sim_tesi_ros2_interfaces/my_sim_tesi_ros2_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.875s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/my_sim_tesi_ros2_interfaces/environment/library_path.sh
+[0.875s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/my_sim_tesi_ros2_interfaces/environment/library_path.dsv
+[0.876s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/include/my_sim_tesi_ros2_interfaces/my_sim_tesi_ros2_interfaces/action/detail/drone_pose_control__rosidl_typesupport_fastrtps_c.h
+[0.876s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/include/my_sim_tesi_ros2_interfaces/my_sim_tesi_ros2_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.876s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/include/my_sim_tesi_ros2_interfaces/my_sim_tesi_ros2_interfaces/action/detail/drone_pose_control__rosidl_typesupport_introspection_c.h
+[0.876s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/include/my_sim_tesi_ros2_interfaces/my_sim_tesi_ros2_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.876s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/include/my_sim_tesi_ros2_interfaces/my_sim_tesi_ros2_interfaces/action/detail/drone_pose_control__builder.hpp
+[0.876s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/include/my_sim_tesi_ros2_interfaces/my_sim_tesi_ros2_interfaces/action/detail/drone_pose_control__struct.hpp
+[0.876s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/include/my_sim_tesi_ros2_interfaces/my_sim_tesi_ros2_interfaces/action/detail/drone_pose_control__traits.hpp
+[0.876s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/include/my_sim_tesi_ros2_interfaces/my_sim_tesi_ros2_interfaces/action/detail/drone_pose_control__type_support.hpp
+[0.876s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/include/my_sim_tesi_ros2_interfaces/my_sim_tesi_ros2_interfaces/action/drone_pose_control.hpp
+[0.877s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/include/my_sim_tesi_ros2_interfaces/my_sim_tesi_ros2_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.877s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/include/my_sim_tesi_ros2_interfaces/my_sim_tesi_ros2_interfaces/action/detail/drone_pose_control__rosidl_typesupport_fastrtps_cpp.hpp
+[0.877s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/include/my_sim_tesi_ros2_interfaces/my_sim_tesi_ros2_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.877s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/include/my_sim_tesi_ros2_interfaces/my_sim_tesi_ros2_interfaces/action/detail/drone_pose_control__rosidl_typesupport_introspection_cpp.hpp
+[0.877s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/my_sim_tesi_ros2_interfaces/environment/pythonpath.sh
+[0.877s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/my_sim_tesi_ros2_interfaces/environment/pythonpath.dsv
+[0.877s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/local/lib/python3.10/dist-packages/my_sim_tesi_ros2_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[0.877s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/local/lib/python3.10/dist-packages/my_sim_tesi_ros2_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.877s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/local/lib/python3.10/dist-packages/my_sim_tesi_ros2_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.877s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/local/lib/python3.10/dist-packages/my_sim_tesi_ros2_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[0.878s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/local/lib/python3.10/dist-packages/my_sim_tesi_ros2_interfaces/__init__.py
+[0.878s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/local/lib/python3.10/dist-packages/my_sim_tesi_ros2_interfaces/_my_sim_tesi_ros2_interfaces_s.ep.rosidl_typesupport_c.c
+[0.878s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/local/lib/python3.10/dist-packages/my_sim_tesi_ros2_interfaces/_my_sim_tesi_ros2_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.878s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/local/lib/python3.10/dist-packages/my_sim_tesi_ros2_interfaces/_my_sim_tesi_ros2_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.878s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/local/lib/python3.10/dist-packages/my_sim_tesi_ros2_interfaces/action/__init__.py
+[0.878s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/local/lib/python3.10/dist-packages/my_sim_tesi_ros2_interfaces/action/_drone_pose_control.py
+[0.878s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/local/lib/python3.10/dist-packages/my_sim_tesi_ros2_interfaces/action/_drone_pose_control_s.c
+[0.878s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/local/lib/python3.10/dist-packages/my_sim_tesi_ros2_interfaces/libmy_sim_tesi_ros2_interfaces__rosidl_generator_py.so
+[0.878s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/local/lib/python3.10/dist-packages/my_sim_tesi_ros2_interfaces/my_sim_tesi_ros2_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.878s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/local/lib/python3.10/dist-packages/my_sim_tesi_ros2_interfaces/my_sim_tesi_ros2_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.878s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/local/lib/python3.10/dist-packages/my_sim_tesi_ros2_interfaces/my_sim_tesi_ros2_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.878s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/local/lib/python3.10/dist-packages/my_sim_tesi_ros2_interfaces/my_sim_tesi_ros2_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.879s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/local/lib/python3.10/dist-packages/my_sim_tesi_ros2_interfaces/my_sim_tesi_ros2_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.879s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/local/lib/python3.10/dist-packages/my_sim_tesi_ros2_interfaces/my_sim_tesi_ros2_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.879s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/my_sim_tesi_ros2_interfaces/action/DronePoseControl.idl
+[0.879s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/my_sim_tesi_ros2_interfaces/action/DronePoseControl.action
+[0.879s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/ament_index/resource_index/package_run_dependencies/my_sim_tesi_ros2_interfaces
+[0.879s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/ament_index/resource_index/parent_prefix_path/my_sim_tesi_ros2_interfaces
+[0.879s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/my_sim_tesi_ros2_interfaces/environment/ament_prefix_path.sh
+[0.879s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/my_sim_tesi_ros2_interfaces/environment/ament_prefix_path.dsv
+[0.879s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/my_sim_tesi_ros2_interfaces/environment/path.sh
+[0.879s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/my_sim_tesi_ros2_interfaces/environment/path.dsv
+[0.879s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/my_sim_tesi_ros2_interfaces/local_setup.bash
+[0.879s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/my_sim_tesi_ros2_interfaces/local_setup.sh
+[0.880s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/my_sim_tesi_ros2_interfaces/local_setup.zsh
+[0.880s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/my_sim_tesi_ros2_interfaces/local_setup.dsv
+[0.880s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/my_sim_tesi_ros2_interfaces/package.dsv
+[0.885s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/ament_index/resource_index/packages/my_sim_tesi_ros2_interfaces
+[0.885s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/my_sim_tesi_ros2_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.885s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/my_sim_tesi_ros2_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.886s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/my_sim_tesi_ros2_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.886s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/my_sim_tesi_ros2_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.886s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/my_sim_tesi_ros2_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.886s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/my_sim_tesi_ros2_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.886s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/my_sim_tesi_ros2_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.886s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/my_sim_tesi_ros2_interfaces/cmake/my_sim_tesi_ros2_interfacesConfig.cmake
+[0.886s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/my_sim_tesi_ros2_interfaces/cmake/my_sim_tesi_ros2_interfacesConfig-version.cmake
+[0.886s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/my_sim_tesi_ros2_interfaces/package.xml
+[0.887s] -- Up-to-date: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/lib/libmy_sim_tesi_ros2_interfaces__rosidl_generator_c.so
+[0.887s] -- Up-to-date: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/lib/libmy_sim_tesi_ros2_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.888s] -- Up-to-date: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/lib/libmy_sim_tesi_ros2_interfaces__rosidl_typesupport_introspection_c.so
+[0.888s] -- Up-to-date: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/lib/libmy_sim_tesi_ros2_interfaces__rosidl_typesupport_c.so
+[0.889s] -- Up-to-date: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/lib/libmy_sim_tesi_ros2_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.889s] -- Up-to-date: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/lib/libmy_sim_tesi_ros2_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.890s] -- Up-to-date: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/lib/libmy_sim_tesi_ros2_interfaces__rosidl_typesupport_cpp.so
+[0.908s] Listing '/home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/local/lib/python3.10/dist-packages/my_sim_tesi_ros2_interfaces'...
+[0.908s] Compiling '/home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/local/lib/python3.10/dist-packages/my_sim_tesi_ros2_interfaces/__init__.py'...
+[0.908s] Listing '/home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/local/lib/python3.10/dist-packages/my_sim_tesi_ros2_interfaces/action'...
+[0.911s] -- Up-to-date: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/lib/libmy_sim_tesi_ros2_interfaces__rosidl_generator_py.so
+[0.911s] -- Up-to-date: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/my_sim_tesi_ros2_interfaces/cmake/export_my_sim_tesi_ros2_interfaces__rosidl_generator_cExport.cmake
+[0.911s] -- Up-to-date: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/my_sim_tesi_ros2_interfaces/cmake/export_my_sim_tesi_ros2_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.911s] -- Up-to-date: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/my_sim_tesi_ros2_interfaces/cmake/export_my_sim_tesi_ros2_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.911s] -- Up-to-date: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/my_sim_tesi_ros2_interfaces/cmake/export_my_sim_tesi_ros2_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.911s] -- Up-to-date: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/my_sim_tesi_ros2_interfaces/cmake/my_sim_tesi_ros2_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.911s] -- Up-to-date: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/my_sim_tesi_ros2_interfaces/cmake/my_sim_tesi_ros2_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.912s] -- Up-to-date: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/my_sim_tesi_ros2_interfaces/cmake/my_sim_tesi_ros2_interfaces__rosidl_typesupport_cExport.cmake
+[0.912s] -- Up-to-date: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/my_sim_tesi_ros2_interfaces/cmake/my_sim_tesi_ros2_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.912s] -- Up-to-date: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/my_sim_tesi_ros2_interfaces/cmake/export_my_sim_tesi_ros2_interfaces__rosidl_generator_cppExport.cmake
+[0.912s] -- Up-to-date: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/my_sim_tesi_ros2_interfaces/cmake/export_my_sim_tesi_ros2_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.912s] -- Up-to-date: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/my_sim_tesi_ros2_interfaces/cmake/export_my_sim_tesi_ros2_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.912s] -- Up-to-date: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/my_sim_tesi_ros2_interfaces/cmake/my_sim_tesi_ros2_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.912s] -- Up-to-date: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/my_sim_tesi_ros2_interfaces/cmake/my_sim_tesi_ros2_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.912s] -- Up-to-date: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/my_sim_tesi_ros2_interfaces/cmake/my_sim_tesi_ros2_interfaces__rosidl_typesupport_cppExport.cmake
+[0.912s] -- Up-to-date: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/my_sim_tesi_ros2_interfaces/cmake/my_sim_tesi_ros2_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.913s] -- Up-to-date: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/my_sim_tesi_ros2_interfaces/cmake/export_my_sim_tesi_ros2_interfaces__rosidl_generator_pyExport.cmake
+[0.913s] -- Up-to-date: /home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces/share/my_sim_tesi_ros2_interfaces/cmake/export_my_sim_tesi_ros2_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[0.914s] Invoked command in '/home/moonlab/ros2_ws/build/my_sim_tesi_ros2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/moonlab/ros2_ws/build/my_sim_tesi_ros2_interfaces

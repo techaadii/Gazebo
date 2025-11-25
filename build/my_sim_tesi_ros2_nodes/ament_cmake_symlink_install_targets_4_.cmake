@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/moonlab/ros2_ws/build/my_sim_tesi_ros2_nodes/libaction_client.so" "TARGETS" "action_client" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

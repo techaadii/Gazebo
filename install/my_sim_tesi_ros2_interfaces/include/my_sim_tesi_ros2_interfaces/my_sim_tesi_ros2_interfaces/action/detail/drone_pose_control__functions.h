@@ -1,0 +1,1 @@
+/home/moonlab/ros2_ws/build/my_sim_tesi_ros2_interfaces/rosidl_generator_c/my_sim_tesi_ros2_interfaces/action/detail/drone_pose_control__functions.h

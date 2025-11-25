@@ -1,0 +1,15 @@
+/home/moonlab/ros2_ws/build/my_sim_tesi_ros2_nodes/CMakeFiles/uninstall.dir
+/home/moonlab/ros2_ws/build/my_sim_tesi_ros2_nodes/CMakeFiles/my_sim_tesi_ros2_nodes_uninstall.dir
+/home/moonlab/ros2_ws/build/my_sim_tesi_ros2_nodes/CMakeFiles/action_server.dir
+/home/moonlab/ros2_ws/build/my_sim_tesi_ros2_nodes/CMakeFiles/action_client.dir
+/home/moonlab/ros2_ws/build/my_sim_tesi_ros2_nodes/CMakeFiles/orchestrator.dir
+/home/moonlab/ros2_ws/build/my_sim_tesi_ros2_nodes/CMakeFiles/pose_control_action_server.dir
+/home/moonlab/ros2_ws/build/my_sim_tesi_ros2_nodes/CMakeFiles/pose_control_action_client.dir
+/home/moonlab/ros2_ws/build/my_sim_tesi_ros2_nodes/CMakeFiles/orchestrator_node.dir
+/home/moonlab/ros2_ws/build/my_sim_tesi_ros2_nodes/CMakeFiles/test.dir
+/home/moonlab/ros2_ws/build/my_sim_tesi_ros2_nodes/CMakeFiles/edit_cache.dir
+/home/moonlab/ros2_ws/build/my_sim_tesi_ros2_nodes/CMakeFiles/rebuild_cache.dir
+/home/moonlab/ros2_ws/build/my_sim_tesi_ros2_nodes/CMakeFiles/list_install_components.dir
+/home/moonlab/ros2_ws/build/my_sim_tesi_ros2_nodes/CMakeFiles/install.dir
+/home/moonlab/ros2_ws/build/my_sim_tesi_ros2_nodes/CMakeFiles/install/local.dir
+/home/moonlab/ros2_ws/build/my_sim_tesi_ros2_nodes/CMakeFiles/install/strip.dir
