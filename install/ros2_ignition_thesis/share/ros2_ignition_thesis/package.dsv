@@ -1,0 +1,12 @@
+source;share/ros2_ignition_thesis/hook/path.ps1
+source;share/ros2_ignition_thesis/hook/path.dsv
+source;share/ros2_ignition_thesis/hook/path.sh
+source;share/ros2_ignition_thesis/hook/pythonpath.ps1
+source;share/ros2_ignition_thesis/hook/pythonpath.dsv
+source;share/ros2_ignition_thesis/hook/pythonpath.sh
+source;share/ros2_ignition_thesis/hook/pythonscriptspath.ps1
+source;share/ros2_ignition_thesis/hook/pythonscriptspath.dsv
+source;share/ros2_ignition_thesis/hook/pythonscriptspath.sh
+source;../../build/ros2_ignition_thesis/share/ros2_ignition_thesis/hook/pythonpath_develop.ps1
+source;../../build/ros2_ignition_thesis/share/ros2_ignition_thesis/hook/pythonpath_develop.dsv
+source;../../build/ros2_ignition_thesis/share/ros2_ignition_thesis/hook/pythonpath_develop.sh

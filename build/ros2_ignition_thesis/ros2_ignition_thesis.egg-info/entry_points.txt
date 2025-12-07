@@ -1,0 +1,3 @@
+[console_scripts]
+tb3_control = ros2_ignition_thesis.tb3_control:main
+
