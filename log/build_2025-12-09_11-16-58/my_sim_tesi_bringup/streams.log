@@ -1,0 +1,34 @@
+[0.013s] Invoking command in '/home/moonlab/ros2_ws/build/my_sim_tesi_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moonlab/ros2_ws/install/turtlebot3_control:/opt/ros/humble /usr/bin/cmake --build /home/moonlab/ros2_ws/build/my_sim_tesi_bringup -- -j24 -l24
+[0.038s] Invoked command in '/home/moonlab/ros2_ws/build/my_sim_tesi_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moonlab/ros2_ws/install/turtlebot3_control:/opt/ros/humble /usr/bin/cmake --build /home/moonlab/ros2_ws/build/my_sim_tesi_bringup -- -j24 -l24
+[0.044s] Invoking command in '/home/moonlab/ros2_ws/build/my_sim_tesi_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moonlab/ros2_ws/install/turtlebot3_control:/opt/ros/humble /usr/bin/cmake --install /home/moonlab/ros2_ws/build/my_sim_tesi_bringup
+[0.049s] -- Install configuration: ""
+[0.049s] -- Execute custom install script
+[0.049s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_bringup/share/my_sim_tesi_bringup/launch/my_ros2_nodes.launch.py
+[0.050s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_bringup/share/my_sim_tesi_bringup/launch/my_sim_final.launch.py
+[0.050s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_bringup/share/my_sim_tesi_bringup/launch/my_sim_map_scan.launch.py
+[0.050s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_bringup/share/my_sim_tesi_bringup/launch/nav2.launch.py
+[0.050s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_bringup/share/my_sim_tesi_bringup/config/final_simulation_config.rviz
+[0.050s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_bringup/share/my_sim_tesi_bringup/config/map_scan_config.rviz
+[0.050s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_bringup/share/my_sim_tesi_bringup/config/nav2_param_config.yaml
+[0.050s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_bringup/share/my_sim_tesi_bringup/config/ros_gz_bridge_final_config.yaml
+[0.050s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_bringup/share/my_sim_tesi_bringup/config/ros_gz_bridge_scan_config.yaml
+[0.050s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_bringup/share/my_sim_tesi_bringup/config/slam_toolbox_config.yaml
+[0.050s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_bringup/share/my_sim_tesi_bringup/map/my_map.pgm
+[0.050s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_bringup/share/my_sim_tesi_bringup/map/my_map.yaml
+[0.051s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_bringup/share/my_sim_tesi_bringup/files/coordinates_goal.txt
+[0.051s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_bringup/share/ament_index/resource_index/package_run_dependencies/my_sim_tesi_bringup
+[0.051s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_bringup/share/ament_index/resource_index/parent_prefix_path/my_sim_tesi_bringup
+[0.051s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_bringup/share/my_sim_tesi_bringup/environment/ament_prefix_path.sh
+[0.051s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_bringup/share/my_sim_tesi_bringup/environment/ament_prefix_path.dsv
+[0.051s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_bringup/share/my_sim_tesi_bringup/environment/path.sh
+[0.051s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_bringup/share/my_sim_tesi_bringup/environment/path.dsv
+[0.051s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_bringup/share/my_sim_tesi_bringup/local_setup.bash
+[0.052s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_bringup/share/my_sim_tesi_bringup/local_setup.sh
+[0.052s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_bringup/share/my_sim_tesi_bringup/local_setup.zsh
+[0.052s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_bringup/share/my_sim_tesi_bringup/local_setup.dsv
+[0.052s] -- Symlinking: /home/moonlab/ros2_ws/install/my_sim_tesi_bringup/share/my_sim_tesi_bringup/package.dsv
+[0.058s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_bringup/share/ament_index/resource_index/packages/my_sim_tesi_bringup
+[0.058s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_bringup/share/my_sim_tesi_bringup/cmake/my_sim_tesi_bringupConfig.cmake
+[0.058s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_bringup/share/my_sim_tesi_bringup/cmake/my_sim_tesi_bringupConfig-version.cmake
+[0.059s] -- Up-to-date symlink: /home/moonlab/ros2_ws/install/my_sim_tesi_bringup/share/my_sim_tesi_bringup/package.xml
+[0.061s] Invoked command in '/home/moonlab/ros2_ws/build/my_sim_tesi_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moonlab/ros2_ws/install/turtlebot3_control:/opt/ros/humble /usr/bin/cmake --install /home/moonlab/ros2_ws/build/my_sim_tesi_bringup

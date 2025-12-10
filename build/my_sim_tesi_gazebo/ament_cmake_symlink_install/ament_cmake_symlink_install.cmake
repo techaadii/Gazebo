@@ -310,50 +310,11 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(DIRECTORY "models" "DESTINATION" "share/my_sim_tesi_gazebo")
-ament_cmake_symlink_install_directory("/home/moonlab/ros2_ws/src/ros2_ignition_thesis/my_sim_tesi_gazebo" DIRECTORY "models" "DESTINATION" "share/my_sim_tesi_gazebo")
+# install(DIRECTORY "launch" "DESTINATION" "share//")
+ament_cmake_symlink_install_directory("/home/moonlab/ros2_ws/src/ros2_ignition_thesis/my_sim_tesi_gazebo" DIRECTORY "launch" "DESTINATION" "share//")
 
-# install(DIRECTORY "worlds" "DESTINATION" "share/my_sim_tesi_gazebo")
-ament_cmake_symlink_install_directory("/home/moonlab/ros2_ws/src/ros2_ignition_thesis/my_sim_tesi_gazebo" DIRECTORY "worlds" "DESTINATION" "share/my_sim_tesi_gazebo")
+# install(DIRECTORY "models" "DESTINATION" "share/")
+ament_cmake_symlink_install_directory("/home/moonlab/ros2_ws/src/ros2_ignition_thesis/my_sim_tesi_gazebo" DIRECTORY "models" "DESTINATION" "share/")
 
-# install(FILES "/home/moonlab/ros2_ws/build/my_sim_tesi_gazebo/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_sim_tesi_gazebo" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/moonlab/ros2_ws/src/ros2_ignition_thesis/my_sim_tesi_gazebo" FILES "/home/moonlab/ros2_ws/build/my_sim_tesi_gazebo/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_sim_tesi_gazebo" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-
-# install(FILES "/home/moonlab/ros2_ws/build/my_sim_tesi_gazebo/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/my_sim_tesi_gazebo" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/moonlab/ros2_ws/src/ros2_ignition_thesis/my_sim_tesi_gazebo" FILES "/home/moonlab/ros2_ws/build/my_sim_tesi_gazebo/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/my_sim_tesi_gazebo" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-
-# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/my_sim_tesi_gazebo/environment")
-ament_cmake_symlink_install_files("/home/moonlab/ros2_ws/src/ros2_ignition_thesis/my_sim_tesi_gazebo" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/my_sim_tesi_gazebo/environment")
-
-# install(FILES "/home/moonlab/ros2_ws/build/my_sim_tesi_gazebo/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/my_sim_tesi_gazebo/environment")
-ament_cmake_symlink_install_files("/home/moonlab/ros2_ws/src/ros2_ignition_thesis/my_sim_tesi_gazebo" FILES "/home/moonlab/ros2_ws/build/my_sim_tesi_gazebo/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/my_sim_tesi_gazebo/environment")
-
-# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/my_sim_tesi_gazebo/environment")
-ament_cmake_symlink_install_files("/home/moonlab/ros2_ws/src/ros2_ignition_thesis/my_sim_tesi_gazebo" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/my_sim_tesi_gazebo/environment")
-
-# install(FILES "/home/moonlab/ros2_ws/build/my_sim_tesi_gazebo/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/my_sim_tesi_gazebo/environment")
-ament_cmake_symlink_install_files("/home/moonlab/ros2_ws/src/ros2_ignition_thesis/my_sim_tesi_gazebo" FILES "/home/moonlab/ros2_ws/build/my_sim_tesi_gazebo/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/my_sim_tesi_gazebo/environment")
-
-# install(FILES "/home/moonlab/ros2_ws/build/my_sim_tesi_gazebo/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/my_sim_tesi_gazebo")
-ament_cmake_symlink_install_files("/home/moonlab/ros2_ws/src/ros2_ignition_thesis/my_sim_tesi_gazebo" FILES "/home/moonlab/ros2_ws/build/my_sim_tesi_gazebo/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/my_sim_tesi_gazebo")
-
-# install(FILES "/home/moonlab/ros2_ws/build/my_sim_tesi_gazebo/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/my_sim_tesi_gazebo")
-ament_cmake_symlink_install_files("/home/moonlab/ros2_ws/src/ros2_ignition_thesis/my_sim_tesi_gazebo" FILES "/home/moonlab/ros2_ws/build/my_sim_tesi_gazebo/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/my_sim_tesi_gazebo")
-
-# install(FILES "/home/moonlab/ros2_ws/build/my_sim_tesi_gazebo/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/my_sim_tesi_gazebo")
-ament_cmake_symlink_install_files("/home/moonlab/ros2_ws/src/ros2_ignition_thesis/my_sim_tesi_gazebo" FILES "/home/moonlab/ros2_ws/build/my_sim_tesi_gazebo/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/my_sim_tesi_gazebo")
-
-# install(FILES "/home/moonlab/ros2_ws/build/my_sim_tesi_gazebo/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/my_sim_tesi_gazebo")
-ament_cmake_symlink_install_files("/home/moonlab/ros2_ws/src/ros2_ignition_thesis/my_sim_tesi_gazebo" FILES "/home/moonlab/ros2_ws/build/my_sim_tesi_gazebo/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/my_sim_tesi_gazebo")
-
-# install(FILES "/home/moonlab/ros2_ws/build/my_sim_tesi_gazebo/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/my_sim_tesi_gazebo")
-ament_cmake_symlink_install_files("/home/moonlab/ros2_ws/src/ros2_ignition_thesis/my_sim_tesi_gazebo" FILES "/home/moonlab/ros2_ws/build/my_sim_tesi_gazebo/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/my_sim_tesi_gazebo")
-
-# install(FILES "/home/moonlab/ros2_ws/build/my_sim_tesi_gazebo/ament_cmake_index/share/ament_index/resource_index/packages/my_sim_tesi_gazebo" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/moonlab/ros2_ws/src/ros2_ignition_thesis/my_sim_tesi_gazebo" FILES "/home/moonlab/ros2_ws/build/my_sim_tesi_gazebo/ament_cmake_index/share/ament_index/resource_index/packages/my_sim_tesi_gazebo" "DESTINATION" "share/ament_index/resource_index/packages")
-
-# install(FILES "/home/moonlab/ros2_ws/build/my_sim_tesi_gazebo/ament_cmake_core/my_sim_tesi_gazeboConfig.cmake" "/home/moonlab/ros2_ws/build/my_sim_tesi_gazebo/ament_cmake_core/my_sim_tesi_gazeboConfig-version.cmake" "DESTINATION" "share/my_sim_tesi_gazebo/cmake")
-ament_cmake_symlink_install_files("/home/moonlab/ros2_ws/src/ros2_ignition_thesis/my_sim_tesi_gazebo" FILES "/home/moonlab/ros2_ws/build/my_sim_tesi_gazebo/ament_cmake_core/my_sim_tesi_gazeboConfig.cmake" "/home/moonlab/ros2_ws/build/my_sim_tesi_gazebo/ament_cmake_core/my_sim_tesi_gazeboConfig-version.cmake" "DESTINATION" "share/my_sim_tesi_gazebo/cmake")
-
-# install(FILES "/home/moonlab/ros2_ws/src/ros2_ignition_thesis/my_sim_tesi_gazebo/package.xml" "DESTINATION" "share/my_sim_tesi_gazebo")
-ament_cmake_symlink_install_files("/home/moonlab/ros2_ws/src/ros2_ignition_thesis/my_sim_tesi_gazebo" FILES "/home/moonlab/ros2_ws/src/ros2_ignition_thesis/my_sim_tesi_gazebo/package.xml" "DESTINATION" "share/my_sim_tesi_gazebo")
+# install(DIRECTORY "worlds" "DESTINATION" "share/")
+ament_cmake_symlink_install_directory("/home/moonlab/ros2_ws/src/ros2_ignition_thesis/my_sim_tesi_gazebo" DIRECTORY "worlds" "DESTINATION" "share/")

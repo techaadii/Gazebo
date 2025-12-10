@@ -1,0 +1,185 @@
+<?xml version="1.0" ?>
+<sdf version="1.8">
+  <world name="my_world_pick_place">
+
+    <physics name="1ms" type="ignored">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+    </physics>
+
+    <plugin filename="ignition-gazebo-physics-system" name="gz::sim::systems::Physics"/>
+    <plugin filename="ignition-gazebo-user-commands-system" name="gz::sim::systems::UserCommands"/>
+    <plugin filename="ignition-gazebo-scene-broadcaster-system" name="gz::sim::systems::SceneBroadcaster"/>
+
+    <plugin filename="libignition-gazebo-sensors-system.so" name="ignition::gazebo::systems::Sensors">
+      <render_engine>ogre2</render_engine>
+    </plugin>
+
+    <light type="directional" name="sun">
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+    <model name="ground_plane">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry><plane><normal>0 0 1</normal><size>100 100</size></plane></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><plane><normal>0 0 1</normal><size>100 100</size></plane></geometry>
+          <material><ambient>0.8 0.8 0.8 1</ambient><diffuse>0.8 0.8 0.8 1</diffuse><specular>0.8 0.8 0.8 1</specular></material>
+        </visual>
+      </link>
+    </model>
+
+    <include><uri>model://Depot</uri><name>magazzino_scene</name></include>
+
+    <include><uri>model://garage_door</uri><name>right_door</name><pose>-15.0335 -5.08113 1.68726 0 0 0</pose></include>
+    <include><uri>model://garage_door</uri><name>central_door</name><pose>-15.0335 -0.136491 1.68726 0 0 0</pose></include>
+    <include><uri>model://garage_door</uri><name>left_door</name><pose>-15.0335 4.80352 1.68726 0 0 0</pose></include>
+
+    <include>
+      <uri>model://turtlebot3_Burger</uri>
+      <name>turtlebot3_Burger</name>
+      <pose>-13.10 2.64 0 0 0 -1.57079</pose>
+      <plugin filename="ignition-gazebo-diff-drive-system" name="ignition::gazebo::systems::DiffDrive">
+        <left_joint>left_wheel_joint</left_joint>
+        <right_joint>right_wheel_joint</right_joint>
+        <wheel_separation>0.160</wheel_separation>
+        <wheel_radius>0.033</wheel_radius>
+        <topic>/cmd_vel</topic>
+      </plugin>
+      <plugin filename="ignition-gazebo-pose-publisher-system" name="ignition::gazebo::systems::PosePublisher">
+        <publish_link_pose>true</publish_link_pose>
+        <use_pose_vector_msg>true</use_pose_vector_msg>
+        <static_publisher>true</static_publisher>
+        <static_update_frequency>1</static_update_frequency>
+      </plugin>
+      <plugin filename="ignition-gazebo-odometry-publisher-system" name="ignition::gazebo::systems::OdometryPublisher">
+        <odom_frame>turtlebot3_Burger/odom</odom_frame>
+        <robot_base_frame>turtlebot3_Burger</robot_base_frame>
+      </plugin>
+      <link name="camera_link">
+        <pose>0 0 0.25 0 0 0</pose>
+        <sensor name="front_camera" type="camera">
+          <pose>0.1 0 0.05 0 0 0</pose>
+          <camera>
+            <horizontal_fov>1.05</horizontal_fov>
+            <image><width>640</width><height>480</height><format>R8G8B8</format></image>
+            <clip><near>0.05</near><far>50</far></clip>
+          </camera>
+          <always_on>true</always_on>
+          <update_rate>30</update_rate>
+          <visualize>true</visualize>
+          <topic>/camera/image_raw</topic>
+        </sensor>
+      </link>
+    </include>
+
+    <include><uri>model://parallelepiped</uri><pose>-10.7737 -2.3139 0.15 0 0 0</pose><name>start_parallelepiped</name></include>
+
+    <include><uri>model://shelf</uri><pose>-3.62206 -5.96312 0 0 0 -1.56159</pose><name>scaffale_1</name></include>
+    <include><uri>model://shelf</uri><pose>-3.62207 -1.12921 0 0 0 1.55764</pose><name>scaffale_2</name></include>
+    <include><uri>model://shelf</uri><pose>-7.44 -2.56 0 0 0 -1.56556</pose><name>scaffale_3</name></include>
+    <include><uri>model://shelf</uri><pose>-7.43005 1.32 0 0 0 -1.58067</pose><name>scaffale_4</name></include>
+    <include><uri>model://shelf</uri><pose>-0.979399 0.589092 0 0 0 0</pose><name>scaffale_5</name></include>
+    <include><uri>model://shelf</uri><pose>0.964757 -1.46203 0 0 0 -1.57259</pose><name>scaffale_6</name></include>
+    <include><uri>model://shelf_big</uri><pose>-1.53939 5.25657 0 0 0 1.56314</pose><name>scaffale_7</name></include>
+    <include><uri>model://shelf</uri><pose>3.85 -2.23 0 0 0 0</pose><name>scaffale_8</name></include>
+    <include><uri>model://shelf</uri><pose>6.3801 0.157755 0 0 0 0</pose><name>scaffale_9</name></include>
+    <include><uri>model://pallet_box_mobile</uri><pose>-10.549 6.66048 -0.006133 0 0 -1.6156</pose><name>pancale_1</name></include>
+    <include><uri>model://pallet_box_mobile</uri><pose>4.80981 -1.04425 -0.005001 0 0 -1.59133</pose><name>pancale_2</name></include>
+
+    <model name="centre_table">
+      <pose>-1.257560 -0.930217 0.35 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="col">
+          <geometry><box><size>1.0 0.6 0.7</size></box></geometry>
+        </collision>
+        <visual name="vis">
+          <geometry><box><size>1.0 0.6 0.7</size></box></geometry>
+          <material><ambient>0.6 0.4 0.2 1</ambient><diffuse>0.6 0.4 0.2 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="packing_box">
+      <pose>-1.257560 -0.930217 0.71 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="floor">
+          <geometry><box><size>0.4 0.4 0.01</size></box></geometry>
+          <material><ambient>0.8 0.7 0.5 1</ambient><diffuse>0.8 0.7 0.5 1</diffuse></material>
+        </visual>
+        <collision name="floor_col">
+           <geometry><box><size>0.4 0.4 0.01</size></box></geometry>
+        </collision>
+        <visual name="wall1"><pose>0 0.2 0.1 0 0 0</pose><geometry><box><size>0.4 0.01 0.2</size></box></geometry><material><ambient>0.8 0.7 0.5 1</ambient><diffuse>0.8 0.7 0.5 1</diffuse></material></visual>
+        <collision name="wall1_col"><pose>0 0.2 0.1 0 0 0</pose><geometry><box><size>0.4 0.01 0.2</size></box></geometry></collision>
+        
+        <visual name="wall2"><pose>0 -0.2 0.1 0 0 0</pose><geometry><box><size>0.4 0.01 0.2</size></box></geometry><material><ambient>0.8 0.7 0.5 1</ambient><diffuse>0.8 0.7 0.5 1</diffuse></material></visual>
+        <collision name="wall2_col"><pose>0 -0.2 0.1 0 0 0</pose><geometry><box><size>0.4 0.01 0.2</size></box></geometry></collision>
+        
+        <visual name="wall3"><pose>0.2 0 0.1 0 0 0</pose><geometry><box><size>0.01 0.4 0.2</size></box></geometry><material><ambient>0.8 0.7 0.5 1</ambient><diffuse>0.8 0.7 0.5 1</diffuse></material></visual>
+        <collision name="wall3_col"><pose>0.2 0 0.1 0 0 0</pose><geometry><box><size>0.01 0.4 0.2</size></box></geometry></collision>
+        
+        <visual name="wall4"><pose>-0.2 0 0.1 0 0 0</pose><geometry><box><size>0.01 0.4 0.2</size></box></geometry><material><ambient>0.8 0.7 0.5 1</ambient><diffuse>0.8 0.7 0.5 1</diffuse></material></visual>
+        <collision name="wall4_col"><pose>-0.2 0 0.1 0 0 0</pose><geometry><box><size>0.01 0.4 0.2</size></box></geometry></collision>
+      </link>
+    </model>
+
+    <model name="object_mug">
+      <pose>-3.62 -5.96 1.0 0 0 0</pose>
+      <link name="link">
+        <inertial><mass>0.1</mass><inertia><ixx>0.0001</ixx><iyy>0.0001</iyy><izz>0.0001</izz></inertia></inertial>
+        <collision name="col">
+          <geometry><cylinder><radius>0.05</radius><length>0.10</length></cylinder></geometry>
+        </collision>
+        <visual name="vis">
+          <geometry><cylinder><radius>0.05</radius><length>0.10</length></cylinder></geometry>
+          <material><ambient>1 0 0 1</ambient><diffuse>1 0 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="object_bottle">
+      <pose>-3.62 -1.12 1.0 0 0 0</pose>
+      <link name="link">
+        <inertial><mass>0.1</mass><inertia><ixx>0.0001</ixx><iyy>0.0001</iyy><izz>0.0001</izz></inertia></inertial>
+        <collision name="col">
+          <geometry><cylinder><radius>0.03</radius><length>0.25</length></cylinder></geometry>
+        </collision>
+        <visual name="vis">
+          <geometry><cylinder><radius>0.03</radius><length>0.25</length></cylinder></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="object_toolbox">
+      <pose>-0.97 0.58 1.0 0 0 0</pose>
+      <link name="link">
+        <inertial><mass>0.5</mass><inertia><ixx>0.001</ixx><iyy>0.001</iyy><izz>0.001</izz></inertia></inertial>
+        <collision name="col">
+          <geometry><box><size>0.25 0.15 0.15</size></box></geometry>
+        </collision>
+        <visual name="vis">
+          <geometry><box><size>0.25 0.15 0.15</size></box></geometry>
+          <material><ambient>0 0 1 1</ambient><diffuse>0 0 1 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+  </world>
+</sdf>

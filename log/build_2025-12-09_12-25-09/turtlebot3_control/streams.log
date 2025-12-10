@@ -1,0 +1,40 @@
+[0.384s] Invoking command in '/home/moonlab/ros2_ws/build/turtlebot3_control': PYTHONPATH=/home/moonlab/ros2_ws/build/turtlebot3_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/moonlab/ros2_ws/install/turtlebot3_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/moonlab/ros2_ws/build/turtlebot3_control/build
+[0.524s] running develop
+[0.623s] Removing /home/moonlab/ros2_ws/install/turtlebot3_control/lib/python3.10/site-packages/turtlebot3-control.egg-link (link to .)
+[0.639s] Invoked command in '/home/moonlab/ros2_ws/build/turtlebot3_control' returned '0': PYTHONPATH=/home/moonlab/ros2_ws/build/turtlebot3_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/moonlab/ros2_ws/install/turtlebot3_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/moonlab/ros2_ws/build/turtlebot3_control/build
+[0.640s] Invoking command in '/home/moonlab/ros2_ws/src/ros2_ignition_thesis/turtlebot3_control': PYTHONPATH=/home/moonlab/ros2_ws/build/turtlebot3_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/moonlab/ros2_ws/install/turtlebot3_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_control build --build-base /home/moonlab/ros2_ws/build/turtlebot3_control/build install --record /home/moonlab/ros2_ws/build/turtlebot3_control/install.log --single-version-externally-managed install_data --force
+[0.774s] running egg_info
+[0.774s] writing ../../../build/turtlebot3_control/turtlebot3_control.egg-info/PKG-INFO
+[0.775s] writing dependency_links to ../../../build/turtlebot3_control/turtlebot3_control.egg-info/dependency_links.txt
+[0.775s] writing entry points to ../../../build/turtlebot3_control/turtlebot3_control.egg-info/entry_points.txt
+[0.775s] writing requirements to ../../../build/turtlebot3_control/turtlebot3_control.egg-info/requires.txt
+[0.775s] writing top-level names to ../../../build/turtlebot3_control/turtlebot3_control.egg-info/top_level.txt
+[0.776s] reading manifest file '../../../build/turtlebot3_control/turtlebot3_control.egg-info/SOURCES.txt'
+[0.776s] writing manifest file '../../../build/turtlebot3_control/turtlebot3_control.egg-info/SOURCES.txt'
+[0.776s] running build
+[0.776s] running build_py
+[0.776s] creating /home/moonlab/ros2_ws/build/turtlebot3_control/build
+[0.777s] creating /home/moonlab/ros2_ws/build/turtlebot3_control/build/lib
+[0.777s] creating /home/moonlab/ros2_ws/build/turtlebot3_control/build/lib/turtlebot3_control
+[0.777s] copying turtlebot3_control/robot_controller.py -> /home/moonlab/ros2_ws/build/turtlebot3_control/build/lib/turtlebot3_control
+[0.777s] copying turtlebot3_control/test_movements.py -> /home/moonlab/ros2_ws/build/turtlebot3_control/build/lib/turtlebot3_control
+[0.777s] copying turtlebot3_control/__init__.py -> /home/moonlab/ros2_ws/build/turtlebot3_control/build/lib/turtlebot3_control
+[0.777s] running install
+[0.777s] running install_lib
+[0.777s] creating /home/moonlab/ros2_ws/install/turtlebot3_control/lib/python3.10/site-packages/turtlebot3_control
+[0.777s] copying /home/moonlab/ros2_ws/build/turtlebot3_control/build/lib/turtlebot3_control/robot_controller.py -> /home/moonlab/ros2_ws/install/turtlebot3_control/lib/python3.10/site-packages/turtlebot3_control
+[0.777s] copying /home/moonlab/ros2_ws/build/turtlebot3_control/build/lib/turtlebot3_control/test_movements.py -> /home/moonlab/ros2_ws/install/turtlebot3_control/lib/python3.10/site-packages/turtlebot3_control
+[0.778s] copying /home/moonlab/ros2_ws/build/turtlebot3_control/build/lib/turtlebot3_control/__init__.py -> /home/moonlab/ros2_ws/install/turtlebot3_control/lib/python3.10/site-packages/turtlebot3_control
+[0.778s] byte-compiling /home/moonlab/ros2_ws/install/turtlebot3_control/lib/python3.10/site-packages/turtlebot3_control/robot_controller.py to robot_controller.cpython-310.pyc
+[0.779s] byte-compiling /home/moonlab/ros2_ws/install/turtlebot3_control/lib/python3.10/site-packages/turtlebot3_control/test_movements.py to test_movements.cpython-310.pyc
+[0.779s] byte-compiling /home/moonlab/ros2_ws/install/turtlebot3_control/lib/python3.10/site-packages/turtlebot3_control/__init__.py to __init__.cpython-310.pyc
+[0.779s] running install_data
+[0.779s] copying resource/turtlebot3_control -> /home/moonlab/ros2_ws/install/turtlebot3_control/share/ament_index/resource_index/packages
+[0.779s] copying package.xml -> /home/moonlab/ros2_ws/install/turtlebot3_control/share/turtlebot3_control
+[0.779s] running install_egg_info
+[0.780s] Copying ../../../build/turtlebot3_control/turtlebot3_control.egg-info to /home/moonlab/ros2_ws/install/turtlebot3_control/lib/python3.10/site-packages/turtlebot3_control-0.0.0-py3.10.egg-info
+[0.781s] running install_scripts
+[0.792s] Installing robot_controller script to /home/moonlab/ros2_ws/install/turtlebot3_control/lib/turtlebot3_control
+[0.792s] Installing test_movements script to /home/moonlab/ros2_ws/install/turtlebot3_control/lib/turtlebot3_control
+[0.792s] writing list of installed files to '/home/moonlab/ros2_ws/build/turtlebot3_control/install.log'
+[0.804s] Invoked command in '/home/moonlab/ros2_ws/src/ros2_ignition_thesis/turtlebot3_control' returned '0': PYTHONPATH=/home/moonlab/ros2_ws/build/turtlebot3_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/moonlab/ros2_ws/install/turtlebot3_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_control build --build-base /home/moonlab/ros2_ws/build/turtlebot3_control/build install --record /home/moonlab/ros2_ws/build/turtlebot3_control/install.log --single-version-externally-managed install_data --force

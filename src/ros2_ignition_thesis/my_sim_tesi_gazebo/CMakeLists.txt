@@ -23,16 +23,21 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
+install(DIRECTORY
+  launch
+  DESTINATION share/${my_sim_tesi_gazebo}/
+)
+
 install(
   DIRECTORY
   models
-  DESTINATION share/${PROJECT_NAME}
+  DESTINATION share/${my_sim_tesi_gazebo}
 )
 
 install(
   DIRECTORY
   worlds
-  DESTINATION share/${PROJECT_NAME}
+  DESTINATION share/${my_sim_tesi_gazebo}
 )
 
-ament_package()
+

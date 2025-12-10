@@ -102,12 +102,12 @@
         </material>
       </visual>
 
-      <!-- LIDAR SENSOR -->
+      <!-- LIDAR SENSOR - REDUCED UPDATE RATE -->
       <sensor name="hls_lfcd_lds" type="gpu_ray">
         <always_on>1</always_on>
         <visualize>0</visualize>
         <pose>-0.032 0 0.171 0 0 0</pose>
-        <update_rate>1800</update_rate>
+        <update_rate>30</update_rate>  <!-- REDUCED from 1800 to 30 Hz -->
         <ray>
           <scan>
             <horizontal>
@@ -130,7 +130,9 @@
         </ray>
       </sensor>
 
-      <!-- CAMERA SENSOR -->
+      <!-- CAMERA SENSOR - DISABLED OR REDUCED -->
+      <!-- COMMENT OUT THE CAMERA IF NOT NEEDED -->
+      <!--
       <sensor name="front_camera" type="camera">
         <always_on>1</always_on>
         <update_rate>30</update_rate>
@@ -153,6 +155,7 @@
           filename="gz-sim-camera-system">
         </plugin>
       </sensor>
+      -->
     </link>
 
     <link name="left_wheel">
@@ -254,17 +257,16 @@
     </joint>
 
     <!-- DIFF DRIVE PLUGIN -->
-    <plugin filename="ignition-gazebo-diff-drive-system" name="ignition::gazebo::systems::DiffDrive">
+    <plugin filename="libignition-gazebo6-diff-drive-system.so"
+        name="ignition::gazebo::systems::DiffDrive">
       <left_joint>left_wheel_joint</left_joint>
       <right_joint>right_wheel_joint</right_joint>
-      <wheel_separation>0.6851</wheel_separation>
-      <wheel_radius>0.1651</wheel_radius>
-      <odom_publish_frequency>20</odom_publish_frequency>
+      <wheel_separation>0.16</wheel_separation>
+      <wheel_radius>0.033</wheel_radius>
+      <topic>/cmd_vel</topic>
+      <odom_publish_frequency>30</odom_publish_frequency>
       <frame_id>odom</frame_id>
-      <child_frame_id>base_link</child_frame_id>
+      <child_frame_id>base</child_frame_id>
     </plugin>
-
-    <static>0</static>
   </model>
 </sdf>
-

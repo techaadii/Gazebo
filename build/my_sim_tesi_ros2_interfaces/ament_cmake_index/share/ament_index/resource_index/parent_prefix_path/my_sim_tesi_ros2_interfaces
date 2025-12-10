@@ -1,1 +1,1 @@
-/home/moonlab/ros2_ws/install/my_sim_tesi_ros2_nodes:/home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces:/home/moonlab/ros2_ws/install/my_sim_tesi_gazebo:/home/moonlab/ros2_ws/install/my_sim_tesi_bringup:/opt/ros/humble
+/home/moonlab/ros2_ws/install/turtlebot3_simulation:/home/moonlab/ros2_ws/install/turtlebot3_control:/home/moonlab/ros2_ws/install/my_sim_tesi_ros2_nodes:/home/moonlab/ros2_ws/install/my_sim_tesi_ros2_interfaces:/home/moonlab/ros2_ws/install/my_sim_tesi_gazebo:/home/moonlab/ros2_ws/install/my_sim_tesi_bringup:/opt/ros/humble
