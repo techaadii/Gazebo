@@ -1,0 +1,163 @@
+<?xml version="1.0" ?>
+<sdf version="1.8">
+  <world name="my_world">
+
+    <physics name="1ms" type="ignored">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+    </physics>
+
+    <plugin filename="ignition-gazebo-physics-system" name="gz::sim::systems::Physics"/>
+    <plugin filename="ignition-gazebo-user-commands-system" name="gz::sim::systems::UserCommands"/>
+    <plugin filename="ignition-gazebo-scene-broadcaster-system" name="gz::sim::systems::SceneBroadcaster"/>
+
+    <plugin filename="libignition-gazebo-sensors-system.so" name="ignition::gazebo::systems::Sensors">
+      <render_engine>ogre2</render_engine>
+    </plugin>
+
+    <light type="directional" name="main_sun">
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+    <model name="ground_plane">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <material>
+            <ambient>0.8 0.8 0.8 1</ambient>
+            <diffuse>0.8 0.8 0.8 1</diffuse>
+            <specular>0.8 0.8 0.8 1</specular>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <include>
+      <uri>model://Depot</uri>
+      <name>magazzino_scene</name>
+    </include>
+
+    <include>
+      <uri>model://garage_door</uri>
+      <name>right_door</name>
+      <pose>-15.033500 -5.081130 1.687260 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://garage_door</uri>
+      <name>central_door</name>
+      <pose>-15.033500 -0.136491 1.687260 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://garage_door</uri>
+      <name>left_door</name>
+      <pose>-15.033500 4.803520 1.687260 0 0 0</pose>
+    </include>
+
+    <!-- Husky Robot Include -->
+    <include>
+       <uri>file:///home/moonlab/ros2_ws/src/ros2_ignition_thesis/my_sim_tesi_gazebo/models/husky/model.sdf</uri>
+      <name>husky_robot</name>
+      <pose>-13.10 2.64 0.5 0 0 -1.57079</pose> <!-- Adjust Z height if needed -->
+    </include>
+
+    <include><uri>model://parallelepiped</uri><pose>-10.773700 -2.313900 0.15 0 0 0</pose><name>start_parallelepiped</name></include>
+    <include><uri>model://shelf</uri><pose>-3.622060 -5.963120 0 0 0 -1.561590</pose><name>scaffale_1</name></include>
+    <include><uri>model://shelf</uri><pose>-3.622070 -1.129210 0 0 0 1.557640</pose><name>scaffale_2</name></include>
+    <include><uri>model://shelf</uri><pose>-7.44 -2.56 0 0 0 -1.565560</pose><name>scaffale_3</name></include>
+    <include><uri>model://shelf</uri><pose>-7.430050 1.32 0 0 0 -1.580670</pose><name>scaffale_4</name></include>
+    <include><uri>model://shelf</uri><pose>-0.979399 0.589092 0 0 0 0</pose><name>scaffale_5</name></include>
+    <include><uri>model://shelf</uri><pose>0.964757 -1.462030 0 0 0 -1.572590</pose><name>scaffale_6</name></include>
+    <include><uri>model://shelf_big</uri><pose>-1.539390 5.256570 0 0 0 1.563140</pose><name>scaffale_7</name></include>
+    <include><uri>model://shelf</uri><pose>3.85 -2.23 0 0 0 0</pose><name>scaffale_8</name></include>
+    <include><uri>model://shelf</uri><pose>6.380100 0.157755 0 0 0 0</pose><name>scaffale_9</name></include>
+    <include><uri>model://pallet_box_mobile</uri><pose>-10.549000 6.660480 -0.006133 0 0 -1.615600</pose><name>pancale_1</name></include>
+    <include><uri>model://pallet_box_mobile</uri><pose>4.809810 -1.044250 -0.005001 0 0 -1.591330</pose><name>pancale_2</name></include>
+
+    <model name="red_toolbox">
+      <pose>-3.8022060 -2.12 2 0 0 -1.561590</pose>
+      <link name="toolbox_body">
+        <inertial>
+          <mass>2.0</mass>
+          <inertia>
+            <ixx>0.02</ixx> <ixy>0.0</ixy> <ixz>0.0</ixz>
+            <iyy>0.02</iyy> <iyz>0.0</iyz> <izz>0.02</izz>
+          </inertia>
+        </inertial>
+        <collision name="body_collision">
+          <geometry><box><size>0.3 0.2 0.15</size></box></geometry>
+        </collision>
+        <visual name="body_visual">
+          <geometry><box><size>0.3 0.2 0.15</size></box></geometry>
+          <material>
+            <ambient>0.8 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+            <specular>0.5 0.5 0.5 1</specular>
+          </material>
+        </visual>
+        <collision name="handle_collision">
+          <pose>0 0 0.1 0 0 0</pose>
+          <geometry><box><size>0.15 0.02 0.08</size></box></geometry>
+        </collision>
+        <visual name="handle_visual">
+          <pose>0 0 0.1 0 0 0</pose>
+          <geometry><box><size>0.15 0.02 0.08</size></box></geometry>
+          <material>
+            <ambient>0.2 0.2 0.2 1</ambient>
+            <diffuse>0.3 0.3 0.3 1</diffuse>
+            <specular>0.8 0.8 0.8 1</specular>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="centre_table">
+      <static>false</static>
+      <pose>-9.27 -0.930217 0.45 0 0 0</pose>
+      <link name="table_link">
+        <inertial>
+          <mass>20.0</mass>
+          <inertia>
+            <ixx>1.5</ixx> <ixy>0.0</ixy> <ixz>0.0</ixz>
+            <iyy>2.5</iyy> <iyz>0.0</iyz> <izz>1.0</izz>
+          </inertia>
+        </inertial>
+        <collision name="table_collision">
+          <geometry><box><size>1.2 0.8 0.9</size></box></geometry>
+        </collision>
+        <visual name="table_visual">
+          <geometry><box><size>1.2 0.8 0.9</size></box></geometry>
+          <material>
+            <ambient>0.5 0.3 0.1 1</ambient>
+            <diffuse>0.6 0.4 0.2 1</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+  </world>
+</sdf>

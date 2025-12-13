@@ -25,19 +25,19 @@ endif()
 
 install(DIRECTORY
   launch
-  DESTINATION share/${my_sim_tesi_gazebo}/
+  DESTINATION share/${PROJECT_NAME}/
 )
 
 install(
   DIRECTORY
   models
-  DESTINATION share/${my_sim_tesi_gazebo}
+  DESTINATION share/${PROJECT_NAME}
 )
 
 install(
   DIRECTORY
   worlds
-  DESTINATION share/${my_sim_tesi_gazebo}
+  DESTINATION share/${PROJECT_NAME}
 )
 
 

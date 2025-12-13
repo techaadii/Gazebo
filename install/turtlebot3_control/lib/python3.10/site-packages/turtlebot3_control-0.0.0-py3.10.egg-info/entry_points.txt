@@ -1,4 +1,0 @@
-[console_scripts]
-robot_controller = turtlebot3_control.robot_controller:main
-test_movements = turtlebot3_control.test_movements:main
-

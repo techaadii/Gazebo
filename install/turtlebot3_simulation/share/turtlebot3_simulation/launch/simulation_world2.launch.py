@@ -1,1 +1,0 @@
-/home/moonlab/ros2_ws/src/ros2_ignition_thesis/turtlebot3_simulation/launch/simulation_world2.launch.py

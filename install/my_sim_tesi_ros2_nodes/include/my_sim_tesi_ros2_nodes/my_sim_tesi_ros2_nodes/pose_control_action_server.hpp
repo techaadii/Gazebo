@@ -1,1 +1,0 @@
-/home/moonlab/ros2_ws/src/ros2_ignition_thesis/my_sim_tesi_ros2_nodes/include/my_sim_tesi_ros2_nodes/pose_control_action_server.hpp

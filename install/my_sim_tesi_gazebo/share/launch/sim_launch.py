@@ -1,1 +1,0 @@
-/home/moonlab/ros2_ws/src/ros2_ignition_thesis/my_sim_tesi_gazebo/launch/sim_launch.py

@@ -1,1 +1,0 @@
-/home/moonlab/ros2_ws/build/my_sim_tesi_ros2_nodes/ament_cmake_core/my_sim_tesi_ros2_nodesConfig-version.cmake

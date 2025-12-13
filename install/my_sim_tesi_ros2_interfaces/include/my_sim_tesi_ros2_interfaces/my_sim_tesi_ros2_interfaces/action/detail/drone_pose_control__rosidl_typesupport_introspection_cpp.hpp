@@ -1,1 +1,0 @@
-/home/moonlab/ros2_ws/build/my_sim_tesi_ros2_interfaces/rosidl_typesupport_introspection_cpp/my_sim_tesi_ros2_interfaces/action/detail/drone_pose_control__rosidl_typesupport_introspection_cpp.hpp

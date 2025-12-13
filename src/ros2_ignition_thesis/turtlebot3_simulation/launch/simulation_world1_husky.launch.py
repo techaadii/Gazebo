@@ -5,25 +5,25 @@ from launch.actions import DeclareLaunchArgument, ExecuteProcess
 from launch.substitutions import LaunchConfiguration, PathJoinSubstitution
 from launch_ros.actions import Node
 from launch_ros.substitutions import FindPackageShare
+import os
+from launch.actions import SetEnvironmentVariable
+
 
 
 def generate_launch_description():
 
-    # 1. PACKAGE SETUP
     package_name = 'my_sim_tesi_gazebo'
     pkg_share = FindPackageShare(package_name)
 
-    # 2. WORLD ARGUMENT
     world_arg = DeclareLaunchArgument(
         'world',
         default_value='my_world_exp1_husky.sdf',
-        description='World file name (in worlds/ directory)'
+        description='World file'
     )
 
     use_sim_time_arg = DeclareLaunchArgument(
         'use_sim_time',
-        default_value='true',
-        description='Use simulation time'
+        default_value='true'
     )
 
     world_file = PathJoinSubstitution([
@@ -32,40 +32,36 @@ def generate_launch_description():
         LaunchConfiguration('world')
     ])
 
-    # 3. LAUNCH GAZEBO (IGNITION FORTRESS)
     gazebo = ExecuteProcess(
         cmd=['ign', 'gazebo', world_file, '-r'],
         output='screen'
     )
 
-    # 4. BRIDGE: CMD_VEL (ROS → GZ)
+    # CMD_VEL (ROS → Ignition)
     bridge_cmd_vel = Node(
         package='ros_gz_bridge',
         executable='parameter_bridge',
         arguments=[
             '/cmd_vel@geometry_msgs/msg/Twist@gz.msgs.Twist'
         ],
-        parameters=[
-            {'use_sim_time': LaunchConfiguration('use_sim_time')},
-            {'qos_overrides./cmd_vel.publisher.reliability': 'best_effort'}
-        ],
+        parameters=[{'use_sim_time': LaunchConfiguration('use_sim_time')}],
         output='screen'
     )
 
-    # 5. BRIDGE: ODOMETRY (GZ → ROS)
+    # ODOMETRY (Ignition → ROS)
     bridge_odom = Node(
         package='ros_gz_bridge',
         executable='parameter_bridge',
         arguments=[
-            '/model/husky_robot/odometry@nav_msgs/msg/Odometry[gz.msgs.Odometry]'
+            '/model/husky/odometry@nav_msgs/msg/Odometry[gz.msgs.Odometry]'
         ],
         remappings=[
-            ('/model/husky_robot/odometry', '/odom')
+            ('/model/husky/odometry', '/odom')
         ],
         output='screen'
     )
 
-    # 6. BRIDGE: TF (OPTIONAL but Recommended)
+    # TF (Ignition → ROS)
     bridge_tf = Node(
         package='ros_gz_bridge',
         executable='parameter_bridge',
@@ -75,7 +71,7 @@ def generate_launch_description():
         output='screen'
     )
 
-    # 7. BRIDGE: CLOCK
+    # CLOCK
     bridge_clock = Node(
         package='ros_gz_bridge',
         executable='parameter_bridge',

@@ -1,1 +1,0 @@
-/home/moonlab/ros2_ws/build/my_sim_tesi_ros2_interfaces/rosidl_generator_py/my_sim_tesi_ros2_interfaces/_my_sim_tesi_ros2_interfaces_s.ep.rosidl_typesupport_introspection_c.c

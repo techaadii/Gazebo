@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/moonlab/ros2_ws/build/my_sim_tesi_ros2_nodes/libaction_server.so" "TARGETS" "action_server" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
