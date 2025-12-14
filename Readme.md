@@ -39,7 +39,7 @@ ros2_ws/
     |   │   │       ├── simulation_world2.launch.py
     |   │   │       |___simulation_world3.launch.py
     |   │   │       └── simulation_world3.launch.py
-    |   │   │       └── simulation_world1_husky.launch.py
+    |   │   │       └── simulation_world1_husky.launch.py # This launch file has husky robot inside it
     │   ├── turtlebot3_control/
     │   │   ├── turtlebot3_control/                # contains controller script for turtlebot3_movements
     │   │   |       ├── robot_controller.py        # script
